@@ -1,11 +1,11 @@
 # SQUEEZENET
 
-Squeeze Layer
+## Squeeze Layer
 ====
 
 Conv2D(1x1, relu)
 
-Expand Layer
+## Expand Layer
 ===
 Conv2D(1x1, relu) 
 Conv2D(1x1, relu)
@@ -17,13 +17,13 @@ Conv2D(3x3, relu)
 Conv2D(3x3, relu)
 Conv2D(3x3, relu)
 
-Fire Module
+## Fire Module
 ===
 - Squeeze Layer
 - Expand Layer
 
 
-SQUEEZENET base Architecture
+## SQUEEZENET base Architecture
 ====
 
 Conv2D(kernel_size=7x7,stride=2,filter=96)
